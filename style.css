@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+
+
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+}
+
+body {
+
+}
+
+.space-images img{
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.pictureOne, .pictureTwo, .pictureTree {
+    position: absolute;
+
+    z-index:-1;
+    
+}
+
+.hide{
+   // display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  padding: 4.0rem 0 4.0rem;
+  
+  align-items: center;
+  gap: 3.2rem;
+}
+
+#logo {
+  width: 4.9rem;
+  height: 4.2rem;
+
+  margin-left: 7.2rem;
+}
+
+nav {
+  font-size: 2.4rem;
+  
+
+  gap: 3.2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C4C4CC;
+}
+
+.active{
+  color: #ffffff;
+}
